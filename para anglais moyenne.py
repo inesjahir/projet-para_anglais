@@ -1,0 +1,6 @@
+x= float (input("quelle note a-t-il eu en fr?"))
+y= float (input("quelle note a-t-il eu en nl?"))
+z= float (input("quelle note a-t-il eu en math?"))
+notefinale=(x+y+z)
+moyenne=(str(notefinale/3))
+print("la note moyenne de l'eleve est "+moyenne)
