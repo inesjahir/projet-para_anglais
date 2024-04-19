@@ -24,29 +24,6 @@ else:
     
     
    
-   
-   
-   
-
-
-
-
-
-
-'''    
-if  concentration <30:
-    print ("diagnostic ""=>"" ""en"" ""insuffisance")
-else :
-    print ("diagnostic ""=>"" ""en"" ""suffisance")
-
-if concentration >30:
-    print ("diagnostic ""=>"" ""en"" ""suffisance")
-else:
-    print ("diagnostic ""=>"" ""en"" ""suffisance")   
-        
-if  concentration <100:
-    print ("diagnostic ""=>"" ""en"" ""suffisance")
-'''
-        
+  
     
     
