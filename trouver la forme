@@ -1,0 +1,52 @@
+#trouver la fome avec 3 quastion !
+
+o="oui"
+n="non"
+
+shakira = "la forme a-t-elle une image de shakira ? "
+
+
+
+coté_paire = input(" la forme a-t-elle un nombre de coté paire ? ")
+ 
+
+if  coté_paire == o:
+    bleu =input("est ce que la forme est bleu ? ")
+    
+    if bleu == o:
+        shakira =input("la forme a-t-elle une image de shakira ? ")
+    
+        if shakira == o:
+          print =input("c'est la forme F ")
+        elif shakira ==n:
+          print("c'est la forme B ")
+         
+    elif bleu == n:
+        carre =input("est ce que ta forme a 4 cotés ? ")
+          
+        if carre == o:
+            print ("c'est la forme G ")
+        elif carre == n:
+            print ("c'est la forme D")
+            
+
+elif  coté_paire == n:
+    vert = input ("est ce que la forme est verte ? ")
+    
+    if vert== o:
+        croix = input("la forme a-t-elle une croix ? ")
+        
+        if croix == o:
+            print =input("c'est la forme A ")
+        elif croix == n :
+            print = input ("c'est la forme C")
+            
+    elif vert == n :
+        jaune = input("est ce que la forme a 3 cotés ? ")
+        
+        if jaune == o:
+            print("c'est la forme E " )     
+        elif jaune== n :
+            print ("c'est la reponse H")
+            
+
